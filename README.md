@@ -38,7 +38,7 @@ Esta sección contiene un compendio de video-tutoriales organizados según los r
 2.4  **Aplicación Práctica: Método 3-2-1 para Restricciones Cinemáticas:** Un ejemplo aplicado donde se muestra visualmente la implementación del **método 3-2-1** para definir condiciones de contorno y restringir los grados de libertad en un modelo de placa, garantizando su correcto ensamblaje para el análisis estructural.
 
 2.5 **Video Tutoriales (LINKS)**\
-En ambos videos cumplen con la funcionalidad de instalar **Calculix** y el **MSYS** pero el primer link el video es mas detallado y el segundo es un video breve pero la selección del material didáctico más apropiado queda sujeta a la preferencia personal del usuario:
+En este caso hay dos videos en el cual cumplen con la misma funcionalidad de instalar **Calculix** y el **MSYS**, el primer link del video es mas detallado y el segundo es un video breve, la selección del material didáctico queda sujeta a la preferencia personal del usuario:
 * Link del video: [CCX: rutina de soldadura dflux ](https://www.youtube.com/watch?v=dOauQPfyh9k&ab_channel=MANUFAI) 
 * Link del video: [Compilar Calculix version Mecway - usando MSYS2 ](https://www.youtube.com/watch?v=tYd7nNkKLfE&ab_channel=MANUFAI) 
 
