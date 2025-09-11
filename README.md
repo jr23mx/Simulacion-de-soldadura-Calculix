@@ -35,7 +35,7 @@ Esta sección contiene un compendio de video-tutoriales organizados según los r
     
 2.3.  **Funcionalidad de PrePoMax:** Demostraciones visuales sobre el uso de las herramientas de preprocesamiento disponibles en **PrePoMax**, incluyendo la generación de mallas y la asignación de propiedades.
     
-2.4  **Aplicación Práctica: Método 3-2-1 para Restricciones Cinemáticas:** Un ejemplo aplicado donde se muestra visualmente la implementación del **método 3-2-1** para definir condiciones de contorno y restringir los grados de libertad en un modelo de placa, garantizando su correcto ensamblaje para el análisis estructural.
+2.4  **Aplicación Práctica: Técnica 3-2-1 para Restricciones Cinemáticas:** Un ejemplo aplicado donde se muestra visualmente la implementación del **Técnica 3-2-1** para definir condiciones de contorno y restringir los grados de libertad en un modelo de placa, garantizando su correcto ensamblaje para el análisis estructural.
 
 2.5 **Video Tutoriales (LINKS)**\
 En este caso hay dos videos en el cual cumplen con la misma funcionalidad de instalar **Calculix** y el **MSYS**, el primer link del video es mas detallado y el segundo es un video breve, la selección del material didáctico queda sujeta a la preferencia personal del usuario:
@@ -48,3 +48,8 @@ En este Link veran como instalar el software **Scite** y ademas configurarlo par
 En este Link veran como pueden usar la **Interfaz (GUI)**:
 * Link del video: [GUI para correr archivos de Calculix de manera organizada ](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI) 
 
+En este Link veran como utilizar la herramienta de **PrePoMax**:
+* Link del video: [Prepomax - comprobación de dimensiones y pre-post ](https://www.youtube.com/watch?v=ViNDmUIN2xU&ab_channel=MANUFAI) 
+
+En este video veran como utilizar la **Tecnica 3-2-1** y un ejemplo visual de un modelo:
+* Link del video: [Técnica 3-2-1 ](https://www.youtube.com/watch?v=8PbpwWAKUJo&ab_channel=MANUFAI) 
