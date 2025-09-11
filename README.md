@@ -10,12 +10,15 @@ Para garantizar su correcta ejecución y una visualización avanzada de los resu
 2.  **Software Auxiliar (SciTE):** Se recomienda el uso del editor de texto SciTE, configurado específicamente para trabajar con los archivos de entrada de CalculiX (.inp). De igual menera en la sección de ["Links"](##Links) se encontrarán las instrucciones de instalación y la configuración óptima que ha demostrado ser efectiva para este fin.
 3.  **Conversión de Resultados:** Se instruirá sobre el uso de una interfaz gráfica (GUI) especializada para convertir los archivos de resultados de CalculiX (con extensión .frd) al formato VTU. Este proceso es esencial para visualizar los resultados post-procesados en ParaView, un software de visualización científica de alto rendimiento. La conversión requiere del archivo de entrada original (.inp) para mapear correctamente la geometría y los datos.
 4.  **Ejemplo Práctico con PrePoMax:** Finalmente, se incluirá un ejemplo práctico utilizando PrePoMax, un pre-postprocesador para MEF. Se demostrará el uso de sus herramientas para generar una malla y exportarla con la extensión .inp, adecuada para su uso directo en el modelo de simulación de CalculiX.
+   
 ## Links :link:
+
 1. **Instalación de software**
-Link para instalar: [MSYS2](https://www.msys2.org)
-Link para instalar: [SciTE](https://www.scintilla.org/SciTEDownload.html)
-Link para instalar: [CCX - win64](https://mecway.com/download/ccx_win64_mkl_pardiso_source_2.21_2.zip)
-[aqui va la GUI del convertidor]
+   
+* Link para instalar: [MSYS2](https://www.msys2.org)
+* Link para instalar: [SciTE](https://www.scintilla.org/SciTEDownload.html)
+* Link para instalar: [CCX - win64](https://mecway.com/download/ccx_win64_mkl_pardiso_source_2.21_2.zip)
+* [aqui va la GUI del convertidor]
 
 2. **Videos de ejemplos**
 Esta sección contiene un compendio de video-tutoriales organizados según los requerimientos específicos del usuario. Los recursos audiovisuales abarcan el proceso integral de implementación y utilización de las herramientas, detallando:
