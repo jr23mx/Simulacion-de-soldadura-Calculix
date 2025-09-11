@@ -18,7 +18,6 @@ Para garantizar su correcta ejecución y una visualización avanzada de los resu
 * Link para instalar: [MSYS2](https://www.msys2.org)
 * Link para instalar: [SciTE](https://www.scintilla.org/SciTEDownload.html)
 * Link para instalar: [CCX - win64](https://mecway.com/download/ccx_win64_mkl_pardiso_source_2.21_2.zip)
-* [aqui va la GUI del convertidor]
 
 2. **Videos de ejemplos**
 Esta sección contiene un compendio de video-tutoriales organizados según los requerimientos específicos del usuario. Los recursos audiovisuales abarcan el proceso integral de implementación y utilización de las herramientas, detallando:
