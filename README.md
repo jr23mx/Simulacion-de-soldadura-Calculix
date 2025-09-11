@@ -14,5 +14,22 @@ Para garantizar su correcta ejecución y una visualización avanzada de los resu
 1. **Instalación de software**
 Link para instalar: [MSYS2](https://www.msys2.org)
 Link para instalar: [SciTE](https://www.scintilla.org/SciTEDownload.html)
+Link para instalar: [CCX - win64](https://mecway.com/download/ccx_win64_mkl_pardiso_source_2.21_2.zip)
+[aqui va la GUI del convertidor]
 
 2. **Videos de ejemplos**
+Esta sección contiene un compendio de video-tutoriales organizados según los requerimientos específicos del usuario. Los recursos audiovisuales abarcan el proceso integral de implementación y utilización de las herramientas, detallando:
+
+2.1  **Instalación de Software:** Guías paso a paso para la correcta instalación de cada componente del entorno de simulación, que incluyen:
+    
+    -   El solver de elementos finitos **CalculiX**.
+        
+    -   El entorno **MSYS2**, necesario para su ejecución en sistemas Windows.
+        
+    -   El **editor de texto avanzado SciTE**, configurado para facilitar la edición y el manejo de archivos de entrada (.inp).
+        
+2.2  **Configuración del Entorno:** Tutoriales dedicados a la configuración óptima de cada software, asegurando su interoperabilidad y correcto funcionamiento para el análisis por elementos finitos.
+    
+2.3.  **Funcionalidad de PrePoMax:** Demostraciones visuales sobre el uso de las herramientas de preprocesamiento disponibles en **PrePoMax**, incluyendo la generación de mallas y la asignación de propiedades.
+    
+2.4  **Aplicación Práctica: Método 3-2-1 para Restricciones Cinemáticas:** Un ejemplo aplicado donde se muestra visualmente la implementación del **método 3-2-1** para definir condiciones de contorno y restringir los grados de libertad en un modelo de placa, garantizando su correcto ensamblaje para el análisis estructural.
