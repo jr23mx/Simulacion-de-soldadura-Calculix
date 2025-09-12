@@ -1,4 +1,4 @@
-# Bienvenido al proyecto de Simulación de soldadura con CalculiX! :wave:
+# Bienvenido al proyecto de Simulación de Soldadura con CalculiX! :wave:
 
 ## Descripción general :page_with_curl:
 
