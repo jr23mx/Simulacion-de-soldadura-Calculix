@@ -84,3 +84,30 @@ Este archivo de entrada (Weld_l_dflux.inp) es el principal y debe ser modificado
 
 Adicionalmente, el directorio contiene el archivo de malla (o mallado) que define la discretización geométrica del modelo. Por otro lado, el archivo ASTM_A36.mat define las propiedades del material acero ASTM A36, incluyendo propiedades térmicas críticas como:
 *CONDUCTIVIDAD, *ELÁSTICO, *EXPANSIÓN, *PLÁSTICO, ENDURECIMIENTO=ISOTRÓPICO, *CALOR ESPECÍFICO, *DENSIDAD, etc.
+
+## Archivos para la GUI convertidor (con extensión .frd) al formato VTU.
+
+En el nivel superior del directorio, se encuentran dos archivos comprimidos:
+
+**01 - Source code.zip:** 
+Este archivo contiene el código fuente de la aplicación. Incluye los siguientes elementos:
+
+* **Interfaz. py:** Archivo principal que contiene el código fuente escrito en Python.
+
+* **Extensiones.txt:** Archivo de texto que define las extensiones de archivo manejadas por la aplicación (e.g., .inp, .msh, .flm, .rad, .mat).
+
+* **requerimientos.txt:** Archivo que especifica las dependencias de Python (paquetes y versiones) necesarias para compilar y ejecutar el código fuente.
+
+* **LOGO_LF.ico:** Archivo de icono utilizado para la interfaz gráfica y el ejecutable.
+
+**02 - Exe.zip:**
+Este archivo contiene la versión ejecutable precompilada de la aplicación. Incluye los mismos archivos extensiones.txt y requerimientos.txt, y añade:
+
+* paraview_path.json y calculix_path.json: Archivos de configuración donde el usuario debe definir las rutas de acceso (paths) a los ejecutables de ParaView y CalculiX instalados en su sistema. Esta configuración es esencial para la funcionalidad de la interfaz, tal como se demuestra en el video tutorial de la Sección 2.5: Video Tutoriales (LINKS): GUI para correr archivos de Calculix de manera organizada.
+
+* Una carpeta de ejemplo con un caso de prueba para validar el funcionamiento del convertidor mediante la interfaz gráfica.
+
+⚠️ **Nota:** Se recomienda fusionar el contenido de ambos archivos en un único directorio para evitar inconvenientes de (rutas) y mantener la organización mostrada en las imágenes siguientes.
+
+<img width="481" height="70" alt="GUI_imagen_1" src="https://github.com/user-attachments/assets/a1518e8d-fe24-4235-b021-976ab2022d10" />
+<img width="477" height="111" alt="GUI_imagen_2" src="https://github.com/user-attachments/assets/a90a287d-bdcd-45d1-b52e-b929607c3c52" />
