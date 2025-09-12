@@ -1,0 +1,119 @@
+*HEADING
+Weld of Metal sheet
+**
+**
+*INCLUDE, input=all.msh
+**assign elements to an element set
+
+
+*MATERIAL, NAME=ASTM36
+*INCLUDE, input=ASTM_A36.mat
+*SOLID SECTION, ELSET=C3D8, MATERIAL=ASTM36
+          1.,
+**
+**
+
+*INCLUDE, INPUT=boundary_conditions.bnd
+
+*INITIAL CONDITIONS, TYPE=TEMPERATURE
+ Nall, 20.
+**
+*PHYSICAL CONSTANTS, ABSOLUTE ZERO=-273.15, STEFAN BOLTZMANN=5.669E-8
+**physical constants, stefan boltzmann=5.669e-11, absolute zero=-273.15
+**stefan boltzmann=5.669e-8 W/m¬≤K‚Å¥
+**
+
+************************************
+**      STEP 1 (Acoplado TÈrmico-Mec·nico):
+************************************
+*RESTART,WRITE,FREQUENCY=1
+*STEP, INC=500
+*COUPLED TEMPERATURE-DISPLACEMENT
+0.01, 0.02
+
+*DFLUX, OP=NEW
+*OUTPUT, FREQUENCY=1
+*NODE PRINT, NSET=Nall
+NT, U  
+*NODE FILE
+NT, U
+**
+*EL FILE
+HFL, S  
+*NODE FILE, FREQUENCY=1
+NT, U
+**
+*END STEP
+
+
+************************************
+**		STEP 2:
+************************************
+*STEP, INC=50
+*UNCOUPLED TEMPERATURE-DISPLACEMENT
+0.08, 1, 1e-8, 0.1
+*CONTROLS, PARAMETERS=TIME INCREMENTATION
+6,16,9,50,20,4,,5, ,
+**DFLUX, OP=NEW
+*FILM, OP=NEW
+** Film based on air
+*INCLUDE, input=film.flm
+*RADIATE, OP=NEW
+** Radiate based on air
+*INCLUDE, input=radiation.rad
+**
+*DFLUX, OP=NEW
+ C3D8, BFNU, 1
+*OUTPUT, FREQUENCY=1
+*NODE PRINT, NSET=Nall
+NT
+*NODE FILE
+NT, U
+**
+*EL FILE
+HFL, S, PEEQ  
+*NODE FILE, FREQUENCY=1
+NT
+**
+*END STEP
+
+************************************
+**		STEP 3:					**
+************************************
+************************************
+*STEP, INC=150
+*UNCOUPLED TEMPERATURE-DISPLACEMENT
+0.050, 348, 1e-8, 0.1
+*CONTROLS, PARAMETERS=TIME INCREMENTATION
+6,16,9,50,20,4,,5, , 0.0050
+*Boundary, OP=NEW
+*Boundary, Fixed
+FIX_XYZ,1,1
+FIX_XYZ,2,2
+FIX_XYZ,3,3
+*Boundary, Fixed
+FIX_XZ,1,1
+FIX_XZ,2,2
+FIX_XZ,3,3
+*Boundary, Fixed
+FIX_Z,3
+**DFLUX, OP=NEW
+*FILM, OP=NEW
+** Film based on air
+*INCLUDE, input=film.flm
+*RADIATE, OP=NEW
+** Radiate based on air
+*INCLUDE, input=radiation.rad
+**
+*OUTPUT, FREQUENCY=1
+*NODE PRINT, NSET=Nall
+NT
+*NODE FILE
+NT, U
+**
+*EL FILE
+HFL, S, PEEQ  
+*NODE FILE, FREQUENCY=1
+NT
+**
+*END STEP
