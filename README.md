@@ -130,3 +130,11 @@ Este archivo contiene la versión ejecutable precompilada de la aplicación. Inc
 
 A través del siguiente enlace podrán acceder a la descarga de la interfaz destinada a uso personal. Además, en este repositorio se proporciona una explicación más detallada sobre su funcionamiento y características:
 * https://github.com/jr23mx/GUI-Run-Calculix/tree/main
+
+## Visualización de resultados del modelo de ejemplo a través del archivo .inp y el archivo .pvd.
+
+En la parte superior del repositorio, dentro de la carpeta **Desacoplado**, se encuentra el caso de estudio correspondiente al análisis presentado en la sección **Análisis de Resultados con ParaView de manera Desacoplado**. En esta carpeta se incluye:
+
+* El archivo de entrada del modelo (.inp).
+
+* Una carpeta denominada **Resultados_04_2025_11_41_41**, la cual contiene los archivos correspondientes al último incremento del análisis, incluyendo el archivo .pvd, que permite visualizar los resultados en el software ParaView.
