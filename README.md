@@ -62,4 +62,25 @@ Esta sección presenta los hallazgos de un estudio comparativo realizado entre l
 ## Análisis de Resultados con ParaView
 <img width="1337" height="501" alt="modelo_en_ParaView" src="https://github.com/user-attachments/assets/9563b664-6fac-4e37-bc0e-7d1d3fdf9fa7" />
 
+## Metodo para ejecutar el modelo de ParaView
 
+El archivo comprimido **Metodo-Ejecutar.zip** contiene un conjunto de 11 archivos, cuyo propósito es automatizar el proceso de ejecución y postprocesamiento de una simulación con CalculiX. El flujo de trabajo se gestiona mediante la ejecución secuencial de tres scripts por lotes (.bat), los cuales deben ser ejecutados en el orden especificado:
+
+* **1_calculix.bat**: Al ejecutar este script, se inicia el solucionador de CalculiX (ccx). Su función es localizar y procesar automáticamente el archivo de entrada principal (con extensión .inp) ubicado en el mismo directorio. Este archivo .inp contiene la definición completa del modelo de elementos finitos (geometría, malla, propiedades materiales, condiciones de contorno y cargas).
+
+* **2_convertidor.bat**: Una vez finalizada la simulación, este script se ejecuta para postprocesar los resultados. Localiza automáticamente el archivo de resultados de CalculiX (con extensión .frd) y utiliza un convertidor para generar archivos de visualización compatibles con ParaView. Las extensiones de salida son .vtu (formato de datos XML no estructurados), .pvd (archivo de colección ParaView) y se conserva el .frd. Todos estos archivos son organizados en una nueva carpeta.
+
+* **3_ordenar_archivos.bat**: Tras la conversión, la ejecución de este script organiza los archivos de salida generados durante la simulación. Crea una carpeta nominada con la convención Run_[Fecha]_[Hora] (por ejemplo, Run_20231027_1130) y dentro de ella clasifica y almacena los archivos de acuerdo a su extensión y propósito, tales como: .12d, .cvg, .dat, .rout y .sta.
+
+Una vez comprendido el flujo de automatización, los archivos restantes contienen las definiciones específicas del modelo que complementan la simulación. El archivo de mayor relevancia y que requiere configuración es Weld_l_dflux.inp.
+
+Este archivo de entrada (Weld_l_dflux.inp) es el principal y debe ser modificado para definir los parámetros del análisis, tales como:
+
+* La magnitud y distribución de la carga térmica (calor).
+
+* La aplicación de condiciones de contorno (Boundary Conditions).
+
+* La activación y vinculación de subrutinas personalizadas, específicamente la subrutina dflux.f para la definición del flujo de calor, y el archivo film.flm para modelar la transferencia de calor por convección (film coefficients).
+
+Adicionalmente, el directorio contiene el archivo de malla (o mallado) que define la discretización geométrica del modelo. Por otro lado, el archivo ASTM_A36.mat define las propiedades del material acero ASTM A36, incluyendo propiedades térmicas críticas como:
+*CONDUCTIVIDAD, *ELÁSTICO, *EXPANSIÓN, *PLÁSTICO, ENDURECIMIENTO=ISOTRÓPICO, *CALOR ESPECÍFICO, *DENSIDAD, etc.
