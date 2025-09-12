@@ -38,11 +38,18 @@ Esta sección contiene un compendio de video-tutoriales organizados según los r
 
 2.5 **Video Tutoriales (LINKS)**\
 En este caso hay dos videos en el cual cumplen con la misma funcionalidad de instalar **Calculix** y el **MSYS**, el primer link del video es mas detallado y el segundo es un video breve, la selección del material didáctico queda sujeta a la preferencia personal del usuario:
-* Link del video: [CCX: rutina de soldadura dflux ](https://www.youtube.com/watch?v=dOauQPfyh9k&ab_channel=MANUFAI) 
-* Link del video: [Compilar Calculix version Mecway - usando MSYS2 ](https://www.youtube.com/watch?v=tYd7nNkKLfE&ab_channel=MANUFAI) 
+
+* Link del video: [CCX: rutina de soldadura dflux ](https://www.youtube.com/watch?v=dOauQPfyh9k&ab_channel=MANUFAI) \
+[<img width="300" height="250" alt="ccx_dflux-routine" src="https://github.com/user-attachments/assets/6425b779-7ef6-4ffa-a39a-070de1253933" />
+ ](https://www.youtube.com/watch?v=dOauQPfyh9k&ab_channel=MANUFAI)
+
+* Link del video: [Compilar Calculix version Mecway - usando MSYS2 ](https://www.youtube.com/watch?v=tYd7nNkKLfE&ab_channel=MANUFAI) \
+[<img width="400" height="300" alt="Calculix - MSYS2" src="https://github.com/user-attachments/assets/e8b0b5bf-4f5e-45ac-ac28-8126afc8dc4b" />](https://www.youtube.com/watch?v=tYd7nNkKLfE&ab_channel=MANUFAI)
 
 En este Link veran como instalar el software **Scite** y ademas configurarlo para uso optimo:
-* Link del video: [Editor de texto Scite para archivos INP de Calculix](https://www.youtube.com/watch?v=J8I9byKDZjM&ab_channel=MANUFAI) 
+* Link del video: [Editor de texto Scite para archivos INP de Calculix](https://www.youtube.com/watch?v=J8I9byKDZjM&ab_channel=MANUFAI) \
+[<img width="400" height="300" alt="Scite_inp" src="https://github.com/user-attachments/assets/020abd0e-a6f3-43a7-9dc1-bee244462abc" />](https://www.youtube.com/watch?v=J8I9byKDZjM&ab_channel=MANUFAI)
+
 
 En este Link veran como nosotros usamos la **Interfaz (GUI)** de convertidor con extensión **.frd** al formato **VTU**:
 * Link del video: [GUI para correr archivos de Calculix de manera organizada ](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI) 
