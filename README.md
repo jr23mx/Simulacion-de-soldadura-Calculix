@@ -52,13 +52,18 @@ En este Link veran como instalar el software **Scite** y ademas configurarlo par
 
 
 En este Link veran como nosotros usamos la **Interfaz (GUI)** de convertidor con extensión **.frd** al formato **VTU**:
-* Link del video: [GUI para correr archivos de Calculix de manera organizada ](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI) 
+* Link del video: [GUI para correr archivos de Calculix de manera organizada ](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI) \
+[<img width="500" height="400" alt="GUI" src="https://github.com/user-attachments/assets/1feb576a-c184-4384-aa2f-b9989c289a43" />](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI)
+
 
 En este Link veran como utilizar la herramienta de **PrePoMax**:
-* Link del video: [Prepomax - comprobación de dimensiones y pre-post ](https://www.youtube.com/watch?v=ViNDmUIN2xU&ab_channel=MANUFAI) 
+* Link del video: [Prepomax - comprobación de dimensiones y pre-post ](https://www.youtube.com/watch?v=ViNDmUIN2xU&ab_channel=MANUFAI) \
+[<img width="500" height="400" alt="msh - Prepomax" src="https://github.com/user-attachments/assets/58233059-0378-44eb-8105-57fde45b02b7" />](https://www.youtube.com/watch?v=ViNDmUIN2xU&ab_channel=MANUFAI)
+
 
 En este video veran como utilizar la **Tecnica 3-2-1** y un ejemplo visual de un modelo:
-* Link del video: [Técnica 3-2-1 ](https://www.youtube.com/watch?v=8PbpwWAKUJo&ab_channel=MANUFAI) 
+* Link del video: [Técnica 3-2-1 ](https://www.youtube.com/watch?v=8PbpwWAKUJo&ab_channel=MANUFAI) \
+[<img width="500" height="450" alt="3-2-1 Technique " src="https://github.com/user-attachments/assets/d5f836f3-789f-404f-ad1d-f0b0ee204e84"/>](https://www.youtube.com/watch?v=8PbpwWAKUJo&ab_channel=MANUFAI)
 
 ## Análisis Comparativo de Resultados entre Simufact y ParaView
 Esta sección presenta los hallazgos de un estudio comparativo realizado entre las plataformas de software **Simufact** y **ParaView**. El objetivo de la comparativa fue evaluar las capacidades de postprocesamiento, visualización de datos y rendimiento de ambos entornos al analizar un conjunto común de resultados de simulación
