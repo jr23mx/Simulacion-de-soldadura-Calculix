@@ -71,7 +71,10 @@ Esta sección presenta los hallazgos de un estudio comparativo realizado entre l
 ## Análisis de Resultados con Simufact
 ![modelo-Simufact](https://github.com/user-attachments/assets/e9026fa9-2265-4996-b55e-cd94a2465ade)
 
-## Análisis de Resultados con ParaView
+## Análisis de Resultados con ParaView de manera Desacoplado
+
+
+## Análisis de Resultados con ParaView de manera Desacoplado
 <img width="1337" height="501" alt="modelo_en_ParaView" src="https://github.com/user-attachments/assets/9563b664-6fac-4e37-bc0e-7d1d3fdf9fa7" />
 
 ## Metodo para ejecutar el modelo de ParaView
@@ -96,6 +99,14 @@ Este archivo de entrada (Weld_l_dflux.inp) es el principal y debe ser modificado
 
 Adicionalmente, el directorio contiene el archivo de malla (o mallado) que define la discretización geométrica del modelo. Por otro lado, el archivo ASTM_A36.mat define las propiedades del material acero ASTM A36, incluyendo propiedades térmicas críticas como:
 *CONDUCTIVIDAD, *ELÁSTICO, *EXPANSIÓN, *PLÁSTICO, ENDURECIMIENTO=ISOTRÓPICO, *CALOR ESPECÍFICO, *DENSIDAD, etc.
+
+En el repositorio https://github.com/jr23mx/Instrucciones-compilar-calculix/tree/main se proporciona información detallada sobre el contenido de las siguientes carpetas. Asimismo, los archivos disponibles en este repositorio pueden ser descargados para su uso personal:
+
+* **03_FRD_paraview_converter/ccx2paraview**:
+* Esta carpeta incluye scripts en Python (.py) destinados a la conversión de archivos en formato .frd, con el fin de facilitar su visualización en ParaView.
+
+* **04_Calculix**:
+* Contiene los ejecutables (.exe) necesarios para la ejecución de CalculiX, así como las bibliotecas dinámicas (.dll) requeridas para su correcto funcionamiento.
 
 ## Archivos para la GUI convertidor (con extensión .frd) al formato VTU.
 
