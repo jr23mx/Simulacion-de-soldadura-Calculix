@@ -44,7 +44,7 @@ En este caso hay dos videos en el cual cumplen con la misma funcionalidad de ins
 En este Link veran como instalar el software **Scite** y ademas configurarlo para uso optimo:
 * Link del video: [Editor de texto Scite para archivos INP de Calculix](https://www.youtube.com/watch?v=J8I9byKDZjM&ab_channel=MANUFAI) 
 
-En este Link veran como pueden usar la **Interfaz (GUI)**:
+En este Link veran como nosotros usamos la **Interfaz (GUI)** de convertidor con extensión **.frd** al formato **VTU**:
 * Link del video: [GUI para correr archivos de Calculix de manera organizada ](https://www.youtube.com/watch?v=KLCsmA_tyCc&ab_channel=MANUFAI) 
 
 En este Link veran como utilizar la herramienta de **PrePoMax**:
@@ -52,3 +52,8 @@ En este Link veran como utilizar la herramienta de **PrePoMax**:
 
 En este video veran como utilizar la **Tecnica 3-2-1** y un ejemplo visual de un modelo:
 * Link del video: [Técnica 3-2-1 ](https://www.youtube.com/watch?v=8PbpwWAKUJo&ab_channel=MANUFAI) 
+
+## Análisis Comparativo de Resultados entre Simufact y ParaView
+Esta sección presenta los hallazgos de un estudio comparativo realizado entre las plataformas de software **Simufact** y **ParaView**. El objetivo de la comparativa fue evaluar las capacidades de postprocesamiento, visualización de datos y rendimiento de ambos entornos al analizar un conjunto común de resultados de simulación
+
+![modelo-Simufact](https://github.com/user-attachments/assets/e9026fa9-2265-4996-b55e-cd94a2465ade)
