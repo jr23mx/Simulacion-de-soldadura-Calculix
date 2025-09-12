@@ -56,4 +56,10 @@ En este video veran como utilizar la **Tecnica 3-2-1** y un ejemplo visual de un
 ## Análisis Comparativo de Resultados entre Simufact y ParaView
 Esta sección presenta los hallazgos de un estudio comparativo realizado entre las plataformas de software **Simufact** y **ParaView**. El objetivo de la comparativa fue evaluar las capacidades de postprocesamiento, visualización de datos y rendimiento de ambos entornos al analizar un conjunto común de resultados de simulación
 
+## Análisis de Resultados con Simufact
 ![modelo-Simufact](https://github.com/user-attachments/assets/e9026fa9-2265-4996-b55e-cd94a2465ade)
+
+## Análisis de Resultados con ParaView
+<img width="1337" height="501" alt="modelo_en_ParaView" src="https://github.com/user-attachments/assets/9563b664-6fac-4e37-bc0e-7d1d3fdf9fa7" />
+
+
