@@ -85,7 +85,7 @@ El archivo comprimido **Metodo-Ejecutar.zip** contiene un conjunto de 11 archivo
 
 * **2_convertidor.bat**: Una vez finalizada la simulación, este script se ejecuta para postprocesar los resultados. Localiza automáticamente el archivo de resultados de CalculiX (con extensión .frd) y utiliza un convertidor para generar archivos de visualización compatibles con ParaView. Las extensiones de salida son .vtu (formato de datos XML no estructurados), .pvd (archivo de colección ParaView) y se conserva el .frd. Todos estos archivos son organizados en una nueva carpeta.
 
-* **3_ordenar_archivos.bat**: Tras la conversión, la ejecución de este script organiza los archivos de salida generados durante la simulación. Crea una carpeta nominada con la convención Run_[Fecha]_[Hora] (por ejemplo, Run_20231027_1130) y dentro de ella clasifica y almacena los archivos de acuerdo a su extensión y propósito, tales como: .12d, .cvg, .dat, .rout y .sta.
+* **3_ordenar_archivos.bat**: Tras la conversión, la ejecución de este script organiza los archivos de salida generados durante la simulación. Crea una carpeta nominada con la convención Run_[Fecha]_[Hora] (por ejemplo, Run_2025_04_30_11_34_16) y dentro de ella clasifica y almacena los archivos de acuerdo a su extensión y propósito, tales como: .12d, .cvg, .dat, .rout y .sta.
 
 Una vez comprendido el flujo de automatización, los archivos restantes contienen las definiciones específicas del modelo que complementan la simulación. El archivo de mayor relevancia y que requiere configuración es Weld_l_dflux.inp.
 
