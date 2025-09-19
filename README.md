@@ -71,10 +71,7 @@ Esta sección presenta los hallazgos de un estudio comparativo realizado entre l
 ## Análisis de Resultados con Simufact
 ![modelo-Simufact](https://github.com/user-attachments/assets/e9026fa9-2265-4996-b55e-cd94a2465ade)
 
-## Análisis de Resultados con ParaView de manera Acoplado
-
-
-## Análisis de Resultados con ParaView de manera Desacoplado
+## Análisis de Resultados con ParaView (Desacoplado)
 <img width="1337" height="501" alt="modelo_en_ParaView" src="https://github.com/user-attachments/assets/9563b664-6fac-4e37-bc0e-7d1d3fdf9fa7" />
 
 ## Metodo para ejecutar el modelo de ParaView
