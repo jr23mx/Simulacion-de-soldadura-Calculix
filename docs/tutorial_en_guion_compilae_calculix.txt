@@ -1,0 +1,15 @@
+Buenos dias residentes, el dia de hoy les voy a explicar todos los pasos que necesetian y todo lo que se ocupa descargar
+para compilar calculix en sus ordenadores, para empezar lo primero que haremos sera entrar a su navegador de preferencia
+yo usare explorer porque tengo muchas tabs en brave y para que vean todo limpio, buscaremos MSYS2 en la barra de busqued
+nos metemos al primer link y ya dentro descargaremos el de la izquierda, si por alguna razon cuentan con una computadora
+que tiene un procesador no intel o amd, se decantarian por la opcion de la derecha.
+2do paso, vayan al repositorio de github que su asesor les dio, si no lo tienen este es el link del repositorio:
+pueden clonar el repositorio completo o con la DownGit, pueden descargar una carpeta en particular, cosa que no se 
+puede hacer por defecto en git hub, la carpeta que ocupamos se llama setup, adentro de ella veran este archivo llamado 
+ccx_win, una vez que lo descarguen por el metodo que se les sea mas facil, lo extraeremos, una vez hecho esto nos iremos
+a la parte de ccx, pero en nuestra terminal de MSYS2, nos pondremos en su direccion, y escribiremos el siguiente comando
+./build.sh, esperamos a que compile y con eso ya estaria listo nuestro calculix virgen, y porque digo virgen? en manufai
+estaras usando un calculix modificado por la comunidad, para esto tendremos que irnos al repositorio otra vez, en la
+parte de setup y descargar la carpeta 05_patches, como ven son parches que cambiaremos por los originales, borrarmos la 
+carpeta original, copiamos la modificada, y volvemos a compilar, y con esto ya estaria listo su calculix midificado.
+muchas gracias :).

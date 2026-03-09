@@ -1,0 +1,17 @@
+** Restricción XYZ en los nodos [Poner numero del nodo aqui]
+*NSET,NSET=FIX_XYZ
+253
+** Restricción XZ en los nodos  [Poner numero del nodo aqui]
+*NSET,NSET=FIX_XZ
+50
+** Restricción Z en los nodos  [Poner numero del nodo aqui]
+*NSET,NSET=FIX_Z
+252
+
+*Boundary, Fixed
+FIX_XYZ,1,1
+FIX_XYZ,2,2
+FIX_XYZ,3,3
+FIX_XZ,1,1
+FIX_XZ,3,3
+FIX_Z,3,3

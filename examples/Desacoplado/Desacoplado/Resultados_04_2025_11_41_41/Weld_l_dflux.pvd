@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+	<Collection>
+		<DataSet file="Weld_l_dflux.01.vtu" timestep="0.01"/>
+		<DataSet file="Weld_l_dflux.02.vtu" timestep="0.02"/>
+		<DataSet file="Weld_l_dflux.03.vtu" timestep="0.1"/>
+		<DataSet file="Weld_l_dflux.04.vtu" timestep="0.18"/>
+		<DataSet file="Weld_l_dflux.05.vtu" timestep="0.26"/>
+		<DataSet file="Weld_l_dflux.06.vtu" timestep="0.34"/>
+		<DataSet file="Weld_l_dflux.07.vtu" timestep="0.42"/>
+		<DataSet file="Weld_l_dflux.08.vtu" timestep="0.5"/>
+		<DataSet file="Weld_l_dflux.09.vtu" timestep="0.58"/>
+		<DataSet file="Weld_l_dflux.10.vtu" timestep="0.66"/>
+		<DataSet file="Weld_l_dflux.11.vtu" timestep="0.74"/>
+		<DataSet file="Weld_l_dflux.12.vtu" timestep="0.82"/>
+		<DataSet file="Weld_l_dflux.13.vtu" timestep="0.9"/>
+		<DataSet file="Weld_l_dflux.14.vtu" timestep="0.98"/>
+		<DataSet file="Weld_l_dflux.15.vtu" timestep="1.02"/>
+		<DataSet file="Weld_l_dflux.16.vtu" timestep="1.07"/>
+		<DataSet file="Weld_l_dflux.17.vtu" timestep="1.12"/>
+		<DataSet file="Weld_l_dflux.18.vtu" timestep="1.17"/>
+		<DataSet file="Weld_l_dflux.19.vtu" timestep="1.22"/>
+		<DataSet file="Weld_l_dflux.20.vtu" timestep="1.27"/>
+		<DataSet file="Weld_l_dflux.21.vtu" timestep="1.345"/>
+		<DataSet file="Weld_l_dflux.22.vtu" timestep="1.445"/>
+		<DataSet file="Weld_l_dflux.23.vtu" timestep="1.545"/>
+		<DataSet file="Weld_l_dflux.24.vtu" timestep="1.645"/>
+		<DataSet file="Weld_l_dflux.25.vtu" timestep="1.745"/>
+		<DataSet file="Weld_l_dflux.26.vtu" timestep="1.845"/>
+		<DataSet file="Weld_l_dflux.27.vtu" timestep="1.945"/>
+		<DataSet file="Weld_l_dflux.28.vtu" timestep="2.045"/>
+		<DataSet file="Weld_l_dflux.29.vtu" timestep="2.145"/>
+		<DataSet file="Weld_l_dflux.30.vtu" timestep="2.245"/>
+		<DataSet file="Weld_l_dflux.31.vtu" timestep="2.345"/>
+		<DataSet file="Weld_l_dflux.32.vtu" timestep="2.445"/>
+		<DataSet file="Weld_l_dflux.33.vtu" timestep="2.545"/>
+		<DataSet file="Weld_l_dflux.34.vtu" timestep="2.645"/>
+		<DataSet file="Weld_l_dflux.35.vtu" timestep="2.745"/>
+		<DataSet file="Weld_l_dflux.36.vtu" timestep="2.845"/>
+		<DataSet file="Weld_l_dflux.37.vtu" timestep="2.945"/>
+		<DataSet file="Weld_l_dflux.38.vtu" timestep="3.045"/>
+		<DataSet file="Weld_l_dflux.39.vtu" timestep="3.145"/>
+		<DataSet file="Weld_l_dflux.40.vtu" timestep="3.245"/>
+	</Collection>
+</VTKFile>
