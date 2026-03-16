@@ -29,7 +29,7 @@ if not exist "%RESULT_DIR%" (
 
 REM ccx2paraview
 set MODULE_DIR=%FRD_DIR%..\
-set MODULE_DIR2=%MODULE_DIR%\03_FRD_paraview_converter
+set MODULE_DIR2=%MODULE_DIR%\02_FRD_paraview_converter
 
 REM Añade el módulo de paquete ccx2paraview a python
 set PYTHONPATH=%MODULE_DIR2%
