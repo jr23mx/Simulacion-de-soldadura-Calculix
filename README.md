@@ -11,10 +11,15 @@ Para trabajar con este repositorio y ejecutar las simulaciones, es necesario con
 | Software | Propósito | Enlace |
 | :--- | :--- | :--- |
 | **MSYS2** | Entorno para compilación y ejecución en Windows. | [msys2.org](https://www.msys2.org) |
+| **Python 3.10.3** | Lenguaje para automatización de tareas y procesamiento de datos. | [python.org](https://www.python.org/downloads/release/python-3103/) |
+| **vtk & numpy** | Librerías de Python para manejo de mallas y cálculos numéricos. | [pypi.org](https://pypi.org/) |
 | **SciTE** | Editor de texto configurado para archivos de entrada `.inp`. | [scintilla.org](https://www.scintilla.org/SciTEDownload.html) |
 | **PrePoMax** | Pre-procesamiento, mallado y asignación de propiedades. | [prepomax.fs.um.si](https://prepomax.fs.um.si/) |
 | **ParaView** | Visualización avanzada de resultados post-procesados. | [paraview.org](https://www.paraview.org/) |
 | **FreeCAD** | Modelado geométrico de las piezas a soldar. | [freecad.org](https://www.freecad.org/) |
+
+> **Nota:** Puedes instalar las librerías necesarias ejecutando:  
+> `pip install vtk numpy`
 
 ---
 
@@ -31,6 +36,8 @@ La organización del proyecto sigue un estándar modular para separar las herram
 ---
 
 ## 🚀 Guía de Inicio Rápido (Quick Start)
+
+
 
 Sigue estos pasos para preparar tu entorno de simulación local:
 
