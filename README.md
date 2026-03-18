@@ -51,7 +51,7 @@ Sigue estos pasos para preparar tu entorno de simulación local:
 ### 1. Preparación de Archivos Base
 Dirígete a la carpeta `setup/` y realiza lo siguiente:
 1.  Extrae el contenido de `ccx_win64_mkl_pardiso_source_2.21_2.zip`.
-2.  Copia los archivos dentro de la carpeta `05_patches/` y pégalos en la carpeta del código fuente extraído, sobrescribiendo cuando se te solicite.
+2.  Copia el archivo "calculix" dentro de la carpeta `patches/` y pégalo en la carpeta parches del código fuente extraído, sobrescribiendo cuando se te solicite.
 
 ### 2. Compilación del Solver
 Para generar el ejecutable personalizado de CalculiX:
