@@ -46,6 +46,21 @@ pacman -S --needed --noconfirm \
 ```
 [Aqui estan los requiriments para pacman de MSYS2 generados](../msys2-pacman-requirements.txt)
 
+
+---
+
+## Obtener el source code
+Bajamos el [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source_2.21_2.zip). Que esta en [Simulacion de soldadura CalculiX](https://github.com/jr23mx/Simulacion-de-soldadura-Calculix)
+
+---
+
+## Compilar con `MSYS2`
+Primero. Iniciamos/Exportamos variables necesarias:
+```bash
+export PATH=/ucrt64/bin:$PATH
+export MINGW_HOME=/ucrt64
+```
+
 Vereficamos que existan los files. Establecermos ruta de binarios a usar.
 ```bash
 export PATH=/ucrt64/bin:$PATH
@@ -55,23 +70,8 @@ which gfortran
 ```
 Tienen que salir los files. Eso significa que jala.
 
----
-
-## Obtener el source code
-Bajamos el [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source_2.21_2.zip). Que esta en [Simulacion de soldadura CalculiX](https://github.com/jr23mx/Simulacion-de-soldadura-Calculix)
-
----
-
-## Compilar 
-
-### Metodo 1
-Establecemos ruta de binarios necesarios.
-```bash
-cd "$HOME/source/repos/simulacion-de-soldadura-caclulix/setup"
-chmod 777 ./build.sh
-```
-
-Descomprimimos el zip, con el programa que se nos de la gana. Pero se de poder desde el terminal MSYS2.
+### Metodo 1 de compilación
+Descomprimimos el zip, con el programa que se nos de la gana. Pero se debe poder desde el terminal MSYS2.
 ```bash
 # Descomprimimos
 7z x "/ruta/ccx_win64_mkl_pardiso_source_2.21_2.zip"
