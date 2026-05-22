@@ -63,6 +63,8 @@ Bajamos el [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source_2.21_2.zip). 
 ---
 
 ## Compilar 
+
+### Metodo 1
 Establecemos ruta de binarios necesarios.
 ```bash
 cd "$HOME/source/repos/simulacion-de-soldadura-caclulix/setup"
@@ -81,6 +83,11 @@ cd "/ruta/ccx_win64_mkl_pardiso_source_2.21_2/ccx/"
 chmod 777 ./build.sh
 ./build.sh
 ```
+
+### Metodo 2
+Tambien existe el script [decompress and compile](../setup/descompress-and-compile-ccx-pardiso.sh). 
+
+Hace lo mismo que el metodo uno. Pero pos automatico.
 
 #### Ejemplo de output satisfactorio:
 ```
