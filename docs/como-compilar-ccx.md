@@ -1,6 +1,6 @@
 # Compilar CalculiX solver en windows
 Para esto utilizaremos `MSYS2`. Y el source code de este repositorio. 
-- El [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source.zip)
+- El [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source_2.21_2.zip)
 
 Instalamos MSYS2 con winget.
 ```powershell
@@ -58,7 +58,7 @@ Tienen que salir los files. Eso significa que jala.
 ---
 
 ## Obtener el source code
-Bajamos el [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source.zip). Que esta en [Simulacion de soldadura CalculiX](https://github.com/jr23mx/Simulacion-de-soldadura-Calculix)
+Bajamos el [ccx-pardiso.zip](../setup/ccx_win64_mkl_pardiso_source_2.21_2.zip). Que esta en [Simulacion de soldadura CalculiX](https://github.com/jr23mx/Simulacion-de-soldadura-Calculix)
 
 ---
 
