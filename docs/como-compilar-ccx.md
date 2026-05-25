@@ -7,7 +7,7 @@ Instalamos MSYS2 con winget.
 gsudo winget install --id MSYS2.MSYS2 --source winget
 ```
 
-Si no te jala winget ve la funte oficial. [MSYS2 Website](https://www.msys2.org/)
+Si no te jala winget ve a la funte oficial. [MSYS2 Website](https://www.msys2.org/)
 
 Cabe recalar que `MSYS`. Por defecto trabaja aca: `C:\msys64`. Aca se almacena todo, el `home` etc. Aun asi puedes trabajar fuera de aca, pero mejor aca adentro.
 
@@ -44,7 +44,7 @@ pacman -S --needed --noconfirm \
   mingw-w64-x86_64-gcc-16.1.0-5 \
   mingw-w64-x86_64-gcc-fortran-16.1.0-5-any 
 ```
-[Aqui estan los requiriments para pacman de MSYS2 generados](../msys2-pacman-requirements.txt)
+[Aqui estan los requirements para pacman de MSYS2 generados](../msys2-pacman-requirements.txt)
 
 
 ---

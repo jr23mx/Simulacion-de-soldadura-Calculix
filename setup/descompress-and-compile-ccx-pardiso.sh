@@ -15,7 +15,7 @@ echo "# Aplicar parches chidos"
 echo "Parche: $CUSTOM_PATCHES_DIR"
 read -p "¿Quieres aplicar este parche? [s/n] " resp
 if [[ "$resp" == "s" ]]; then
-    rm -R "$PATCHES_DIR"
+    # rm -R "$PATCHES_DIR" # Esto esta por trolling. En realidad no hace falta borrar nadota, solo copiar.
     cp -R "$CUSTOM_PATCHES_DIR" "$PATCHES_DIR"
 else
     echo "Nimodo..."
